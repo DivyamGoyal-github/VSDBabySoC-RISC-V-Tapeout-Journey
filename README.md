@@ -147,7 +147,6 @@ $ sudo apt install gtkwave
 - Installed and verified **open-source EDA tools** successfully.  
 - Learned about **basic environment setup** for RTL design and synthesis.  
 - Prepared the system for upcoming **RTL → GDSII flow experiments**.
-</details>
 
 #### **Core RTL Design & Synthesis Tools**
 
@@ -169,6 +168,10 @@ $ sudo apt install gtkwave
 </div>
 
 ---
+
+</details>
+
+Installed and verified **open-source EDA tools** successfullya and Learned about **basic environment setup** for RTL design and synthesis.  
 
 <details>
     <summary><span style="color:#3FA9F5;">Week 1 - RTL Design </span></summary>
@@ -2116,6 +2119,8 @@ This initial week has laid a strong foundation for my RTL design journey. I look
 
 </details>
 
+---
+
 Hands-on introduction to Verilog RTL, including combinational and sequential logic modeling, simulation using Icarus Verilog, and waveform analysis with GTKWave.
 Also covers RTL coding styles, writing testbenches, and synthesizing basic designs using Yosys and Sky130 libraries.
 
@@ -2586,6 +2591,8 @@ sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --
 
 
 </details>
+
+---
 
 Covers the building blocks of a System-on-Chip: processor, peripherals, memory, interconnect, and top-level integration.
 You learn how SoC architecture is defined and how different subsystems communicate inside a VSDBabySoC-style RISC-V system.
@@ -3383,6 +3390,8 @@ This process successfully transformed the `vsdbabysoc` RTL design into a verifie
 
 
 </details>
+
+---
 
 Introduces Static Timing Analysis (STA), including setup/hold timing, timing arcs, slack calculation, and path analysis.
 You also learn how STA ensures timing closure of real designs and how timing reports are interpreted.
@@ -4190,6 +4199,8 @@ gnuplot plot -vdd#branch
 
 </details>
 
+---
+
 Covers analog/digital circuit behavior using SPICE simulations with ngspice.
 You simulate basic circuits, understand transient/AC/DC analysis, and learn how device characteristics impact real silicon behavior.
 
@@ -4322,6 +4333,8 @@ Inside the `flow/` Directory
 </div>
 
 </details>
+
+---
 
 Walkthrough of OpenROAD setup and its early physical design stages: reading netlists, technology files, and initializing the floorplan.
 You work with IO placement, tapcell insertion, PDN generation, and standard-cell placement using automated OpenROAD optimization.
@@ -4480,6 +4493,8 @@ A well-thought-out floorplan improves routability, performance, and power integr
 ***
 
 </details>
+
+---
 
 Full RTL-to-GDS flow using OpenLANE: synthesis, floorplanning, placement, CTS, routing, DRC, and GDS export.
 You explore the OpenLANE directory structure, configuration files, and understand how PnR automation produces manufacturable layouts on Sky130.
@@ -4923,6 +4938,8 @@ Feel free to fork this repo or adapt the steps for your own custom designs.
 
 </details>
 
+---
+
 Apply the complete OpenROAD PD flow specifically to the VSDBabySoC RISC-V SoC.
 You run macro placement, congestion analysis, CTS tuning, routing, and generate the final layout for the BabySoC top module.
 
@@ -5180,6 +5197,8 @@ Fast + low temperature = shortest delays.
 ---
 
 </details>
+
+---
 
 Perform multi-corner STA (TT, SS, FF) for the RISC-V core to evaluate timing robustness across Process-Voltage-Temperature variations.
 You analyze worst-case slack, path failures, and verify timing closure for tapeout readiness.
