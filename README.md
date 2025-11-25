@@ -28,7 +28,9 @@ This repository documents my **week-by-week progress** with tasks inside each we
 </div>
 
 <details>
-    <summary>Week 0 - Setup and Tools Installation </summary>
+    <summary><span style="color:#3FA9F5;">Week 0 - Setup and Tools Installation</span></summary>
+
+    
     
 # Task 1
 ## RTL to GDSII SoC Design Flow
@@ -169,7 +171,7 @@ $ sudo apt install gtkwave
 ---
 
 <details>
-    <summary>Week 1 - RTL Design </summary>
+    <summary><span style="color:#3FA9F5;">Week 1 - RTL Design </span></summary>
 
 # RTL Design And Synthesis Using Sky130
 
@@ -2118,7 +2120,7 @@ Hands-on introduction to Verilog RTL, including combinational and sequential log
 Also covers RTL coding styles, writing testbenches, and synthesizing basic designs using Yosys and Sky130 libraries.
 
 <details>
-    <summary>Week 2 - SOC Fundamentals </summary>
+    <summary><span style="color:#3FA9F5;">Week 2 - SOC Fundamentals </span></summary>
 
 # System on Chip (SoC) Fundamentals
 
@@ -2589,7 +2591,7 @@ Covers the building blocks of a System-on-Chip: processor, peripherals, memory, 
 You learn how SoC architecture is defined and how different subsystems communicate inside a VSDBabySoC-style RISC-V system.
 
 <details>
-    <summary>Week 3 - STA Fundamentals </summary>
+    <summary><span style="color:#3FA9F5;">Week 3 - STA Fundamentals </span></summary>
 
 # Static Timing Analysis Fundamentals
 
@@ -3386,7 +3388,7 @@ Introduces Static Timing Analysis (STA), including setup/hold timing, timing arc
 You also learn how STA ensures timing closure of real designs and how timing reports are interpreted.
 
 <details>
-    <summary>Week 4 - Spice Simulations </summary>
+    <summary><span style="color:#3FA9F5;">Week 4 - Spice Simulations </span></summary>
 
 # SPICE Simulations
 
@@ -4192,7 +4194,7 @@ Covers analog/digital circuit behavior using SPICE simulations with ngspice.
 You simulate basic circuits, understand transient/AC/DC analysis, and learn how device characteristics impact real silicon behavior.
 
 <details>
-    <summary>Week 5 - OpenROAD Flow-Setup Floorplan Placement </summary>
+    <summary><span style="color:#3FA9F5;">Week 5 - OpenROAD Flow-Setup Floorplan Placement </span></summary>
 
 # OpenROAD installation guide
 
@@ -4325,7 +4327,7 @@ Walkthrough of OpenROAD setup and its early physical design stages: reading netl
 You work with IO placement, tapcell insertion, PDN generation, and standard-cell placement using automated OpenROAD optimization.
 
 <details>
-    <summary> Week 6 - Physical Design using OpenLANE </summary>
+    <summary><span style="color:#3FA9F5;"> Week 6 - Physical Design using OpenLANE </span></summary>
 
 ## 🚀 Introduction
 
@@ -4483,7 +4485,7 @@ Full RTL-to-GDS flow using OpenLANE: synthesis, floorplanning, placement, CTS, r
 You explore the OpenLANE directory structure, configuration files, and understand how PnR automation produces manufacturable layouts on Sky130.
 
 <details>
-    <summary> Week 7 - OpenRoad VSDBabySOC Physical Design </summary>
+    <summary><span style="color:#3FA9F5;"> Week 7 - OpenRoad VSDBabySOC Physical Design </span></summary>
 
 # VSDBabySoC Physical Design – Using OpenROAD
 
@@ -4925,7 +4927,7 @@ Apply the complete OpenROAD PD flow specifically to the VSDBabySoC RISC-V SoC.
 You run macro placement, congestion analysis, CTS tuning, routing, and generate the final layout for the BabySoC top module.
 
 <details>
-    <summary> Week 8 - RISC-V core multi corner STA analysis </summary>
+    <summary><span style="color:#3FA9F5;"> Week 8 - RISC-V core multi corner STA analysis </span></summary>
 
 # RISC-V_core_multi_corner_sta_analysis
 ---
